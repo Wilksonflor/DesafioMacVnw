@@ -1,0 +1,56 @@
+.mainContainer {
+  background-color: #ffc72c;
+}
+
+.mainContainer section {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainContainer .contentBurguer {
+  margin-block: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contentBurguer img {
+  width: 300px;
+  height: 300px;
+}
+
+.contentBurguer h1 {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 3rem;
+  width: 20%;
+}
+
+span {
+  color: #db0007;
+}
+
+.produtos {
+  display: flex;
+
+  margin-top: 30px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.produtos h2 {
+  font-size: 2rem;
+}
+
+.produtos .produtosContent {
+  margin-block: 30px;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: "Roboto", sans-serif;
+}
+
+.produtosContent img {
+  cursor: pointer;
+}
